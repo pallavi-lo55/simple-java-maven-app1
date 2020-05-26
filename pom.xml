@@ -21,7 +21,7 @@
         <!-- Build an executable JAR -->
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
-        <version>3.0.2</version>
+        <version>3.6.2</version>
         <configuration>
           <archive>
             <manifest>
@@ -40,10 +40,10 @@
       <name>ITINBAC-DW0768-snapshots</name>
       <url>http://localhost:8081/artifactory/libs-snapshot</url>
        </repository>
-    <SnapshotRepository>
+    <snapshotRepository>
     <id>snapshots</id>
       <name>libs-snapshot</name>
           <url>http://localhost:8081/artifactory/libs-snapshot</url>
-    </SnapshotRepository>
+    </snapshotRepository>
      </distributionManagement>
 </project>
